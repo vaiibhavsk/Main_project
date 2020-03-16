@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2258aae2ee264658902c5fa13cd7a49c" Name="Diagram1">
+        <EntityTypeShape EntityType="DBQUIZ1Model.TBL_ADMIN" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZ1Model.TBL_QUESTIONS" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZ1Model.TBL_SETEXAM" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZ1Model.TBL_STUDENT" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBQUIZ1Model.FK__TBL_SETEX__EXAM___1CF15040" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBQUIZ1Model.tbl_categroy" Width="1.5" PointX="3" PointY="8.625" />
+        <AssociationConnector Association="DBQUIZ1Model.FK__tbl_categ__cat_f__1FCDBCEB" />
+        <AssociationConnector Association="DBQUIZ1Model.FK__TBL_QUEST__q_fk___20C1E124" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
